@@ -28,7 +28,9 @@ module.exports = {
         return string.repeat(count);
       }
     }
-  },
+  }
+};
+
   // formatIngredients: (string) => {
   //   const string = "🔥";
   //   if (count > 0) {
@@ -48,4 +50,3 @@ module.exports = {
   //     }
   //   }
   // },
-};
