@@ -29,23 +29,23 @@ module.exports = {
       }
     }
   },
-  formatIngredients: (string) => {
-    const string = "🔥";
-    if (count > 0) {
-      if (count > 9) {
-        return string + "x" + count;
-      } else {
-        return string.repeat(count);
-      }
-    }
-  },
-  formatInstructions: (string) => {
-    if (count > 0) {
-      if (count > 9) {
-        return string + "x" + count;
-      } else {
-        return string.repeat(count);
-      }
-    }
-  },
+  // formatIngredients: (string) => {
+  //   const string = "🔥";
+  //   if (count > 0) {
+  //     if (count > 9) {
+  //       return string + "x" + count;
+  //     } else {
+  //       return string.repeat(count);
+  //     }
+  //   }
+  // },
+  // formatInstructions: (string) => {
+  //   if (count > 0) {
+  //     if (count > 9) {
+  //       return string + "x" + count;
+  //     } else {
+  //       return string.repeat(count);
+  //     }
+  //   }
+  // },
 };
