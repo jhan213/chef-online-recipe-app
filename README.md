@@ -10,4 +10,4 @@ To run locally,
 1. Run `npm i` in the project directory
 2. Run `npm run start` to start the application on a local server.
 
-![]()
+![](./preview.png)
